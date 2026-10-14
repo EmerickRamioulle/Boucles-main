@@ -10,7 +10,7 @@ class Program
             Console.WriteLine(i);
         }
 
-        // Étape 2 : faire un décompte qui va de 5 à 1 puis qui dit Bonne année !
+        // Étape 2 : faire un décompte qui va de 5 à 1 puis qui dit Bonne année !//
         for (int i = 5; i >= 1; i--)
         {
             Console.WriteLine(i);
