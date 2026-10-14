@@ -36,12 +36,12 @@ class Program
 
         // Étape 5 : faire une boucle qui se répète à chaque fois que l utilisateur écrit autre chose que oui
 
-        string reponse = "";
+        string reponse;
         do
         {
             Console.Write("Voulez-vous arrêter ? (Écrivez oui pour quitter) ");
             reponse = Console.ReadLine();
-        } while (reponse != "oui")
+        } while (reponse != "oui");
         Console.WriteLine("Merci ! La boucle est terminée");
     }
 }
